@@ -1,5 +1,5 @@
 <?php
-require_once 'config/database.php';
+require_once 'Piggery/config/database.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +51,7 @@ require_once 'config/database.php';
         <div class="container text-center">
             <h1 class="display-4 mb-4">Welcome to Piggery Farm Management</h1>
             <p class="lead mb-4">Efficiently manage your pig farming operations with our comprehensive system</p>
-            <a href="admin/login.php" class="btn btn-light btn-lg">Admin Login</a>
+            <a href="Piggery/admin/login.php" class="btn btn-light btn-lg">Admin Login</a>
         </div>
     </section>
 
@@ -101,7 +101,7 @@ require_once 'config/database.php';
                     <p>Our system provides tools for tracking pig health, managing breeding programs, monitoring growth phases, and handling sales operations.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="../baboy.jpg" alt="Pig Farm" class="img-fluid rounded">
+                    <img src="baboy.jpg" alt="Pig Farm" class="img-fluid rounded">
                 </div>
             </div>
         </div>

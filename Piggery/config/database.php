@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-$host = $_ENV['DB_HOST'] ?? 'joccwsg44gwo0oc0s8g48ko0';
+$host = $_ENV['DB_HOST'] ?? 'qw0skwgck80kkwwcoog84kkc';
 $dbname = $_ENV['DB_DATABASE'] ?? 'default';
 $username = $_ENV['DB_USERNAME'] ?? 'root';
-$password = $_ENV['DB_PASSWORD'] ?? '0439VpH3ybiZZdDmbFH7mI1PXBBSSGfMwh96BdMEcBGGYH5gJsIFZAiTAfCwNJGz';
+$password = $_ENV['DB_PASSWORD'] ?? '0lAxrnhKCsChUu0yLwZwIS9PRlJ74O7IrDHzyGlACuyGoiVSbNtEm6GLEX1MjQMo';
 $port = $_ENV['DB_PORT'] ?? '3306';
 
 try {
